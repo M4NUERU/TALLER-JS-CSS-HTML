@@ -14,16 +14,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 25vh;
 }
 
 .titulos{
+    margin-top: 80px;
     margin-bottom: 40px;
     text-align: center;
     color: #ffffff;
-    font-size: 36px;
+    font-size: 48px;
 }
 .subtitulos{
+    margin-top: 60px;
     margin-bottom: 25px;
     text-align: center;
     color: #ffffff;
