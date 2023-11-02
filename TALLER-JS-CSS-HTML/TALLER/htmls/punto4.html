@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evaluacion de Materia</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+</head>
+<body class="fondo">
+    <h1 class="titulos">Evaluacion de Materia</h1>
+    <h2 class="subtitulos" for="nombre">Nombre:</h2>
+    <input class="textbox" type="text" id="nombre" required>
+    <h2 class="subtitulos"for="materia">Nombre de la Materia:</h2>
+    <input class="textbox" type="text" id="materia" required>
+    <h2 class="subtitulos" for="nota1">Nota 1:</h2>
+    <input class="textbox"  type="number" id="nota1" min="0" max="10" step="0.1" required>
+    <h2 class="subtitulos"for="nota2">Nota 2:</h2>
+    <input class="textbox" type="number" id="nota2" min="0" max="10" step="0.1" required>
+    <h2 class="subtitulos"for="nota3">Nota 3:</h2>
+    <input class="textbox"type="number" id="nota3" min="0" max="10" step="0.1" required>
+    <button class="botoncin" onclick="calcularPromedio()">Calcular</button>
+    <p  class="textos" id="resultado"></p>
+    <script src="../js/punto4.js"></script>
+</body>
+</html>
